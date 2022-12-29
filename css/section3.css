@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../pics/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.conatiner{
+    background-color: rgba(0,0,0,0.5);
+    width: 500px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 65vh;
+    border-radius: 10px;
+}
+.conatiner form{
+    /* background-color: aqua; */
+    height: calc(100% - 15%);
+    margin: 20px ;
+    transform: translateX(4px);
+    position: relative;
+}
+.conatiner form label{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conatiner form input{
+    margin: 10px 0;
+    border: 0;
+    outline: none;
+    padding: 9px 15px;
+    width: 94%;
+    border-radius: 10px;
+}
+.conatiner form input::placeholder{
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 9px 15px;
+    border-radius: 10px;
+    border: 0;
+    position: absolute;
+    left: 40%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+button:hover{
+    background-color: rgba(0,0,0,0.3);
+    transition: all .3s ease;
+    transform: scale(1);
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 19px;
+}
+span{
+    position: relative;
+    top: 11.5%;
+}
